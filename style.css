@@ -1,0 +1,115 @@
+/* body{
+    font-family: 'Chelsea Market', cursive;
+    margin: 0px;
+}
+     */
+
+
+body{
+
+    font-family: 'Lato', sans-serif;
+    /* font-weight: 400; */
+    margin: 0px;
+}     
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    color: dimgray;
+    font-size: 17px;
+}
+
+.highlight{
+    color: orange;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+    /* margin-top: 60px; */
+    
+
+}
+
+.half-width img {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5%;
+}
+
+.top-banner{
+    
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 120px;
+}
+
+.link-button{
+    
+ 
+    font-size: 20px;
+    background-color:orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, red, transparent);
+}
+
+.link-button:hover{
+    color:black;
+
+}
+
+.dream-area{
+    /* background-image: url("images/dream-bg.png"); */
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single-experience{
+    box-shadow:10px 10px 40px gray;
+    height: 70%;
+    background-color: white;
+    
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
